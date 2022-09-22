@@ -69,11 +69,11 @@ for(let i=0; i<50; i++)
 for(let[key, val] of resultMap) 
 {
   if (key == 1) {
-    console.log(val+" Individuals have birthday on "+key+" month");
+    console.log(val+" Individuals have birthday on "+key+"st month");
   } else if (key == 2) {
-    console.log(val+" Individuals have birthday on "+key+" month");
+    console.log(val+" Individuals have birthday on "+key+"nd month");
   } else {
-    console.log(val+" Individuals have birthday on "+key+" month");
+    console.log(val+" Individuals have birthday on "+key+"rd month");
   }{
     
   }

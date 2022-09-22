@@ -12,7 +12,6 @@ function primeFactors(n) {
   }
   return factors;
 }
-
 const randomNumber = Math.floor(Math.random() * 10000);
 console.log('Prime factors of', randomNumber + ':', primeFactors(randomNumber).join(' '))
 
